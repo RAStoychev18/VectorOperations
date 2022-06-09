@@ -23,4 +23,16 @@ int main()
 	for (const int& i : num) {
 		cout << i << " ";
 	}
+	/////////////////////////
+
+	//Access Elements of a Vector
+
+		cout << "Number at Index 0: " << num.at(0) << endl;
+		cout << "Number at Index 2: " << num.at(2) << endl;
+		cout << "Number at Index 4: " << num.at(4);
+
+		return 0;
+
+	/////////////////////////
+
 }
